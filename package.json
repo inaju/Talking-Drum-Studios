@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/inaju/Talking-Drum-Studios#readme",
   "devDependencies": {
+    "dotenv": "^8.1.0",
     "nodemon": "^1.19.1"
   },
   "dependencies": {
