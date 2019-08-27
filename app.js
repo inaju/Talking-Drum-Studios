@@ -15,7 +15,6 @@ app.get('/', (req,res)=>{
   res.render('pages/index')
 })
 
-app.use(enforce.HTTPS({ trustProtoHeader: true }))
 
 app.get('/static', (req,res)=>{
   res.send(console.log(path.join(__dirname, 'public')))
