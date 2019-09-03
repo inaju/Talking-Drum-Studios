@@ -15,6 +15,13 @@ app.get('/', (req,res)=>{
   res.render('pages/index')
 })
 
+app.get('/w3', (req,res)=>{
+  res.render('pages/w3')
+})
+
+app.get('/responsive', (req,res)=>{
+  res.render('pages/responsive')
+})
 
 app.get('/static', (req,res)=>{
   res.send(console.log(path.join(__dirname, 'public')))

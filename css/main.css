@@ -1,29 +1,171 @@
+* {
+  box-sizing:border-box;
+}
+  /*header section
 
-  /*header section */
+  .tds-banner .overlay{
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background-image:url('/static/talking_drumstudios_logo.png');
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-position: contain;
+  background-repeat: no-repeat;
 
-	  	.tds-banner{
+  }
+*/
 
-			background: rgba(249, 168,6,0.4);
+      /*this is for extra small devices---xs---<576px*/
+      @media only screen and (max-device-width: 576px) {
+        	.tds-banner .overlay{
+            position: absolute;
+      	  	min-height: 100%;
+      	  	min-width: 100%;
+      	  	left: 0;
+      	  	top: 0;
+      			background-image:url('/static/talking_drumstudios_logo_300_700.png');
+      			background-attachment: fixed;
+      			background-size: contain;
+      			background-position: center;
+      			background-repeat: no-repeat;
+
+}
 
 
 
-	  	}
+}
+
+/*this is for small devices---sm--->=768px*/
+
+
+@media only screen and (min-device-width: 576px) {
+    .tds-banner .overlay{
+      position: absolute;
+      min-height: 100%;
+      min-width: 100%;
+      left: 0;
+      top: 0;
+      background-image:url('/static/talking_drumstudios_logo_760_1024.png');
+      background-attachment: fixed;
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+
+}
+
+.description h1{
+padding-right:70%;
+
+}
+
+
+.description h5{
+padding-top:10%;
+}
 
 
 
-	  	.tds-banner .overlay{
-	  	position: absolute;
-	  	min-height: 100%;
-	  	min-width: 100%;
-	  	left: 0;
-	  	top: 0;
-			background-image:url('/static/talking_drumstudios_logo.png');
-			background-attachment: fixed;
-			background-size: cover;
-			background-position: center;
-			background-repeat: no-repeat;
 
-	  	}
+}
+
+/*this is for medium devices---sm--->=768px*/
+
+@media only screen and (min-device-width: 768px) {
+    .tds-banner .overlay{
+      position: absolute;
+      min-height: 100%;
+      min-width: 100%;
+      left: 0;
+      top: 0;
+      background-image:url('/static/talking_drumstudios_logo_760_1024.png');
+      background-attachment: fixed;
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+
+}
+
+.description h1{
+padding-right:70%;
+}
+
+
+.description h5{
+padding-top:10%;
+}
+
+
+
+
+}
+
+
+/*this is for large devices---sm--->=992px*/
+
+@media only screen and (min-device-width: 992px) {
+    .tds-banner .overlay{
+      position: absolute;
+      min-height: 100%;
+      min-width: 100%;
+      left: 0;
+      top: 0;
+      background-image:url('/static/talking_drumstudios_logo_760_1024.png');
+      background-attachment: fixed;
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+
+}
+
+.description h1{
+padding-right:70%;
+}
+
+
+.description h5{
+padding-top:10%;
+}
+
+
+
+
+}
+
+
+/*this is for extralarge devices---sm--->=1200px*/
+
+@media only screen and (min-device-width: 1200px) {
+    .tds-banner .overlay{
+      position: absolute;
+      min-height: 100%;
+      min-width: 100%;
+      left: 0;
+      top: 0;
+      background-image:url('/static/talking_drumstudios_logo_760_1024.png');
+      background-attachment: fixed;
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+
+}
+
+.description h1{
+padding-right:70%;
+}
+
+
+.description h5{
+padding-top:10%;
+}
+
+
+
+
+}
+
 
 
 
@@ -174,4 +316,55 @@ min-width:10%;
 .contact-form .right .form-control::placeholder{
  color: #888;
  font-size: 16px;
+}
+
+
+
+
+/*from w3schools*/
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+
+@media only screen and (max-width: 768px) {
+	/* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+
+
+
+
+		  	.tds-banner .overlay{
+		  	position: absolute;
+		  	max-height: 100%;
+		  	max-width: 100%;
+		  	left: 0;
+		  	top: 0;
+				background-image:url('/static/talking_drumstudios_logo.png');
+				background-attachment: fixed;
+				background-size: cover;
+				background-position: center;
+				background-repeat: no-repeat;
+
+		  	}
+
 }

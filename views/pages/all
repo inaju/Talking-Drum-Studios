@@ -1,0 +1,30 @@
+
+<div class="navigation-bar">
+  <% include ../pages/navbar %>
+</div>
+
+<div class='hero'>
+
+    <% include ../pages/whatWeDo %>
+
+</div>
+
+<section class="gamax-portfolio">
+    <% include ../pages/portfolio %>
+</section>
+
+		<!-- Quote-->
+	<section>
+        <% include ../pages/quote %>
+
+</section>
+
+		<!-- Contact form -->
+<div class="contact-form">
+  <% include ../pages/contact %>
+</div>
+
+<section>
+  <% include ../partials/footer %>
+
+</section>
