@@ -1,370 +1,311 @@
-* {
-  box-sizing:border-box;
+
+.whatWeDo .btn-default{
+  border:1px  solid #F97300;
+  color: #F97300;
+
 }
-  /*header section
 
-  .tds-banner .overlay{
-  position: absolute;
-  min-height: 100%;
-  min-width: 100%;
-  left: 0;
-  top: 0;
-  background-image:url('/static/talking_drumstudios_logo.png');
-  background-attachment: fixed;
-  background-size: 100% 100%;
-  background-position: contain;
-  background-repeat: no-repeat;
+.btn-default{
+  border:1px  solid #F97300;
+  color: #F97300;
+  background-color: #fff;
 
-  }
-*/
+}
 
+
+.button p{
+  font-size: 15px;
+  color: #F97300;;
+}
+
+
+.one,.two,.three{
+  padding:10px;
+
+}
+
+h2{
+  font-weight: 540;
+  color:#F97300;
+
+}
+
+  p{
+   font-weight: 500;
+   font-size: 18px;
+   color: rgb(153,153,153);
+ }
+
+ h1{
+   font-size: 60px;
+   color:#FFFAFA;
+   font-weight: 600;
+ }
       /*this is for extra small devices---xs---<576px*/
-      @media only screen and (max-device-width: 576px) {
-        	.tds-banner .overlay{
+      @media only screen
+      and (min-device-width: 300px)
+
+       {
+
+        html,
+        body{
+          font-size:14px;
+        }
+        	.tds-banner {
             position: absolute;
-      	  	min-height: 100%;
+            min-height: 100%;
       	  	min-width: 100%;
-      	  	left: 0;
-      	  	top: 0;
-      			background-image:url('/static/talking_drumstudios_logo_300_700.png');
+
+      			background-image:url('/static/talking_drumstudios_logo.png');
       			background-attachment: fixed;
-      			background-size: contain;
+      			background-size: 300% 100%;
       			background-position: center;
       			background-repeat: no-repeat;
+            border-color: 3px  #fff;
+
+            width: auto ;
+            max-width: 100% ;
+            height: auto ;
 
 }
-
-
-
+.tds-banner {
+background-color: rgba(249, 168, 6, 0.4);
+padding: 0;
+margin:0;
+size:30%;
+margin-bottom: 100px;
 }
 
-/*this is for small devices---sm--->=768px*/
-
-
-@media only screen and (min-device-width: 576px) {
-    .tds-banner .overlay{
-      position: absolute;
-      min-height: 100%;
-      min-width: 100%;
-      left: 0;
-      top: 0;
-      background-image:url('/static/talking_drumstudios_logo_760_1024.png');
-      background-attachment: fixed;
-      background-size: contain;
-      background-position: center;
-      background-repeat: no-repeat;
-
-}
 
 .description h1{
-padding-right:70%;
+padding-top: 150px;
+padding-left: 80px;
 
 }
+
 
 
 .description h5{
-padding-top:10%;
+padding-top:10px;
+padding-left: 80px;
+color:black;
+font-weight: 400;
 }
 
 
-
-
-}
-
-/*this is for medium devices---sm--->=768px*/
-
-@media only screen and (min-device-width: 768px) {
-    .tds-banner .overlay{
-      position: absolute;
-      min-height: 100%;
-      min-width: 100%;
-      left: 0;
-      top: 0;
-      background-image:url('/static/talking_drumstudios_logo_760_1024.png');
-      background-attachment: fixed;
-      background-size: contain;
-      background-position: center;
-      background-repeat: no-repeat;
-
-}
-
-.description h1{
-padding-right:70%;
-}
-
-
-.description h5{
-padding-top:10%;
-}
-
-
-
-
-}
-
-
-/*this is for large devices---sm--->=992px*/
-
-@media only screen and (min-device-width: 992px) {
-    .tds-banner .overlay{
-      position: absolute;
-      min-height: 100%;
-      min-width: 100%;
-      left: 0;
-      top: 0;
-      background-image:url('/static/talking_drumstudios_logo_760_1024.png');
-      background-attachment: fixed;
-      background-size: contain;
-      background-position: center;
-      background-repeat: no-repeat;
-
-}
-
-.description h1{
-padding-right:70%;
-}
-
-
-.description h5{
-padding-top:10%;
-}
-
-
-
-
-}
-
-
-/*this is for extralarge devices---sm--->=1200px*/
-
-@media only screen and (min-device-width: 1200px) {
-    .tds-banner .overlay{
-      position: absolute;
-      min-height: 100%;
-      min-width: 100%;
-      left: 0;
-      top: 0;
-      background-image:url('/static/talking_drumstudios_logo_760_1024.png');
-      background-attachment: fixed;
-      background-size: contain;
-      background-position: center;
-      background-repeat: no-repeat;
-
-}
-
-.description h1{
-padding-right:70%;
-}
-
-
-.description h5{
-padding-top:10%;
-}
-
-
-
-
-}
-
-
-
-
-/*Gamax portfolio section*/
-.gamax-portfolio{
-background-image: url('/static/Gamax_portfolio.png');
-}
-
-.gamax-portfolio h2{
-color:#fff;
-}
-.gamax-portfolio p{
-color: #F97300;
-}
-
-
-.description h1,p,body{
-@import url('https://fonts.googleapis.com/css?family=Lexend+Tera&display=swap');
-font-family: 'Lexend Tera', sans-serif;
-}
-.description{
-  position: absolute;
-  top: 30%;
-  left:25%;
-
-  margin: auto;
-  padding: 4em;
-
-}
-.whatWeDo {
-margin-top: 50%;
-}
-
-.whatWeDo .paragraph h2{
-font-size: 50px;
-background-color: #F97300;
-
-
-}
-
-.whatWeDo .gamax{
-	margin-right: 40%;
-}
-
-.whatWeDo .gamax h3{
-font-size: 30px;}
-
-.whatWeDo .gamax .paragraph h2{
-}
-
-
-.whatWeDo .image-gamax{
-}
-.description h1{
-
-color:#FFF ;
-font-size: 50px;
-
-}
-.description p{
-
-color:#602f16;
-font-size: 17px;
-width: 50%;
-line-height: 1.5;
+.button{
+  padding-left: 80px;
+  padding-top:10px;
 
 }
 .description .btn{
 border:1px  solid #fff;
 background: #fff;
 color:#F97300;
-min-width:10%;
+size:10px;
+padding:7px;
+width: 100%;
+height: 45px;
+}
+
+
+
+
+
 
 }
 
-.btn-primary:hover {
-  color: #fff;
-  background-color: #F97300;
-  border-color: #F97300; /*set the color you want here*/
+
+
+.navbar-default {
+  background-color:none !important;
+  background-image: none;
+  background-repeat: no-repeat;
+  font-size: 20px;
+ }
+ .navbar-brand{
+   font-size: 15px;
+   font-weight: 600;
+
+ }
+ .navbar-text .btn-primary{
+   border:1px  solid rgba(249, 168, 6, 0.4);
+   background: #f9a806;
+   font-size: 10px;
+
+ }
+.body, .navbar-brand, .navbar-text{
+@import url('https://fonts.googleapis.com/css?family=Lexend+Tera&display=swap');
+font-family: 'Lexend Tera', sans-serif;
+
 }
 
-/*  Hero Description Section*/
-.hero .container  {
-  background-color: #fff;;
+
+
+
+
+/*what we do*/
+.whatWeDo{
+padding-top: 190%;
+margin-top: 10px;
+top:50%;
+background-color: #fff;
+
+
+
 }
 
-.hero-description{
-  background-color: #FFF ;
-  top:70%;
-  margin-top: 50%;
+
+.whatWeDo h1{
+  font-weight: 550;
+  color:#F97300;
+  font-size: 40px;
+  margin:10px;
 
 }
 
-.hero .btn{
-  background-color: #F97300;
-  border-color: #F97300;
+.whatWeDo h2{
+  font-weight: 540;
+}
+.whatWeDo .gamax-row{
+  padding-top: 3%;
+  margin: 10px;
 }
 
-.hero .btn-primary:hover {
-  color: #fff;
-  background-color: #F97300;
-  border-color: #fff;
-  border-width:60%;
+.whatWeDo p{
+  font-weight: 500;
+  font-size: 18px;
+  color: rgb(153,153,153);
 }
 
-/*ZoomIn Hover Effect*/
-  .hover-zoomin a {
-    display: block;
-    position: relative;
-    overflow: hidden;
-  }
-  .hover-zoomin img {
-    width: 100%;
-    height: auto;
-    -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    -ms-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-  }
-  .hover-zoomin:hover img {
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
-  }
+.whatWeDo .studio-row{
+  padding-top: 50px;
+}
+.whatWeDo .image-gamax{
+  top:30px;
 
-  /*dontact form section*/
-
-  .contact-form{
- margin: 6em 0;
- position: relative;
 }
 
+.gamax-portfolio{
+  margin-top: 120px;
+}
+.contact-form{
+  margin:20px;
+  padding-top:80px;
+}
 .contact-form h1{
- padding:2em 1px;
- color: #F97300;
-}
-.contact-form .right{
- max-width: 600px;
-}
-.contact-form .right .btn-secondary{
- background:  #F97300;
- color: #fff;
- border:0;
-}
-.contact-form .right .form-control::placeholder{
- color: #888;
- font-size: 16px;
+  font-weight: 400;
+  color:#F97300;
+  size:20px;
 }
 
 
 
 
-/*from w3schools*/
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
+@media only screen
+and (min-device-width: 400px)
+and (max-device-width: 900px){
 
 
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
+  /*what we do*/
+  .whatWeDo{
+  padding-top: 210%;
+  margin-top: 10px;
+  top:50%;
+  background-color: #fff;
 
 
 
-@media only screen and (max-width: 768px) {
-	/* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
   }
-
-
-
-
-		  	.tds-banner .overlay{
-		  	position: absolute;
-		  	max-height: 100%;
-		  	max-width: 100%;
-		  	left: 0;
-		  	top: 0;
-				background-image:url('/static/talking_drumstudios_logo.png');
-				background-attachment: fixed;
-				background-size: cover;
-				background-position: center;
-				background-repeat: no-repeat;
-
-		  	}
-
 }
+
+
+
+
+@media only screen
+and (min-device-width: 360px)
+and (max-device-width: 640px){
+
+    /*what we do*/
+    .whatWeDo{
+    padding-top: 190%;
+    margin-top: 10px;
+    top:50%;
+    background-color: #fff;
+
+
+
+    }
+}
+
+@media only screen
+and (min-device-width: 360px)
+and (max-device-width: 740px){
+
+    /*what we do*/
+    .whatWeDo{
+    padding-top: 210%;
+    margin-top: 10px;
+    top:50%;
+    background-color: #fff;
+
+
+
+    }
+}
+
+
+@media only screen
+and (min-device-width: 414px)
+and (max-device-width: 846px){
+
+    /*what we do*/
+    .whatWeDo{
+    padding-top: 210%;
+    margin-top: 10px;
+    top:50%;
+    background-color: #fff;
+
+
+
+    }
+}
+
+
+
+
+
+@media only screen
+and (min-device-width: 384px)
+and (max-device-width: 670px){
+
+    /*what we do*/
+    .whatWeDo{
+    padding-top: 180%;
+    margin-top: 10px;
+    top:50%;
+    background-color: #fff;
+
+
+
+    }
+}
+
+
+
+@media only screen
+and (min-device-width: 411px)
+and (max-device-width: 823px){
+
+
+      /*what we do*/
+      .whatWeDo{
+      padding-top: 200%;
+      margin-top: 10px;
+      top:50%;
+      background-color: #fff;
+
+
+
+      }
+  }
