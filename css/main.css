@@ -5,6 +5,23 @@
 
 }
 
+.studio-portfolio{
+  padding-top: 150px;
+}
+
+
+.studio-portfolio h3{
+  font-size: 20px;
+  color:#F97300;
+}
+
+
+.studio-portfolio .see_more p{
+  font-size: 15px;
+  color:#F97300;
+  padding:0px;
+  margin:0px;
+}
 .btn-default{
   border:1px  solid #F97300;
   color: #F97300;
@@ -760,6 +777,7 @@ background-color: #fff;
           and (min-device-width: 768px)
           and (max-device-width: 1024px)
         {
+
 
               .tds-banner {
                 position: absolute;
