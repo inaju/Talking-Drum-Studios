@@ -15,6 +15,11 @@ app.get('/', (req,res)=>{
   res.render('pages/index')
 })
 
+
+app.get('/gamax', (req,res)=>{
+  res.render('gamax/gamax-index')
+})
+
 app.get('/w3', (req,res)=>{
   res.render('pages/w3')
 })
